@@ -1,0 +1,56 @@
+.light-theme {
+    background-color: #eee7dc;
+    color: #000;
+  }
+  
+  .dark-theme {
+    background-color: #1a1511;
+    color: #fff;
+  }
+  
+  .styled-form {
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .styled-text-field {
+    background-color: rgba(255, 255, 255, 0.9); 
+    color: black!important; 
+  }
+  
+  .styled-text-field.dark-theme {
+    background-color: #9e9a96; 
+    color: white!important; 
+  }
+  
+  .styled-button {
+    background-color: #b49f8c !important;
+    color: black !important;
+    margin-top: 1rem;
+  }
+  
+  .styled-button.dark-theme {
+    background-color: #6f5b4d !important; 
+    color: white !important; 
+  }
+  
+  .styled-button:hover {
+    background-color: #b19b76;
+  }
+  
+  .styled-button.dark-theme:hover {
+    background-color: #49382e; 
+  }
+  
+  .success-message {
+    color: rgb(43, 23, 0);
+    margin-top: 1rem;
+  }
+
+  .success-message.dark-theme {
+    color: rgb(203, 189, 173);
+    margin-top: 1rem;
+  }
+  

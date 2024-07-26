@@ -1,0 +1,47 @@
+.info-container {
+  background-color: rgba(180, 149, 103, 0.3);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.dark .info-container {
+  background-color: #251f1c;
+}
+
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contact-info-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+  height: 150px;
+  color: #333; 
+}
+
+.dark .contact-info-box {
+  background-color: #281f1a;
+  color: white; 
+}
+
+.icon {
+  font-size: 40px;
+  margin-right: 10px;
+  align-self: center;
+}
+
+.info-heading {
+  color: #333; 
+}
+
+.dark .info-heading {
+  color: white; 
+}
