@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+  
+  .banner {
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: left;
+    width: 45%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .banner.dark {
+    background-color: rgba(11, 5, 0, 0.75)!important;
+  }
+  
+  .banner.light {
+    background-color: rgba(238, 230, 224, 0.65)!important;
+  }
+  
+  .banner-text {
+    width: 100%;
+  }
+  
+  .text-white {
+    color: #fff!important;
+  }
+  
+  .text-black {
+    color: #000!important;
+  }
+  
+  .custom-button {
+    background-color: #a5907d !important;
+    color: #000 !important;
+  }
+  
+  .custom-button.dark-button {
+    background-color: #95755c !important;
+    color: #fff!important;
+  }
+  
+  .custom-button.light-button:hover {
+    background-color: #a08e7f;
+  }
+  
+  .custom-button.dark-button:hover {
+    background-color: #52382c;
+  }
+  
+  .name-input-box {
+    position: absolute;
+    bottom: 150px;
+    left: 250px;
+  }
+  
+  .name-input {
+    background-color: rgba(238, 230, 224, 0.45);
+    color: #000;
+  }
+  
+  .name-input.dark-input {
+    background-color: rgba(24, 10, 0, 0.65);
+    color: #fff;
+  }
+  
+  .collage-container {
+    width: 48%;
+    display: flex;
+    justify-content: flex-end; 
+  }
+  
+  .collage {
+    border-radius: 10px;
+  }
+  
+  .collage-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
